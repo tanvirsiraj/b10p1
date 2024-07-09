@@ -112,3 +112,22 @@ nav h2 {
   height: 550px;
   border-radius: 10px;
 }
+.current-target-content {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.current-target-content div {
+  background: #ff4c1e10;
+  padding: 40px;
+}
+.current-target-content div:nth-child(2) {
+  background: #004ce810;
+}
+.current-target-content p {
+  max-width: 280px;
+}
+.current-target-content a {
+  color: black;
+  font-weight: bold;
+}
