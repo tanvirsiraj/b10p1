@@ -3,7 +3,7 @@ body {
   font-family: "Azeret Mono", monospace;
 }
 .wrapper {
-  margin-inline: 150px;
+  margin-inline: 200px;
 }
 
 .primary-btn button {
@@ -112,6 +112,7 @@ nav h2 {
   height: 550px;
   border-radius: 10px;
 }
+/* current target section  */
 .current-target-content {
   margin-top: 30px;
   display: flex;
@@ -128,6 +129,31 @@ nav h2 {
   max-width: 280px;
 }
 .current-target-content a {
+  color: black;
+  font-weight: bold;
+}
+
+/* next target section  */
+.next-target-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #0d132120;
+  border-radius: 10px;
+}
+.next-target-content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+.next-target-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.next-target-content a {
   color: black;
   font-weight: bold;
 }
