@@ -75,7 +75,7 @@ nav h2 {
   color: white;
   border: none;
 }
-/* why web dev  */
+/* why web dev section styles */
 .why-web-dev-card {
   display: flex;
   justify-content: space-between;
@@ -101,6 +101,7 @@ nav h2 {
   border-radius: 0;
   padding: 12px 20px;
 }
+/* inspiration section styles */
 .video-container {
   border: 1px solid #0d132120;
   border-radius: 10px;
@@ -112,7 +113,7 @@ nav h2 {
   height: 550px;
   border-radius: 10px;
 }
-/* current target section  */
+/* current target section  styles */
 .current-target-content {
   margin-top: 30px;
   display: flex;
@@ -133,7 +134,7 @@ nav h2 {
   font-weight: bold;
 }
 
-/* next target section  */
+/* next target section  styles */
 .next-target-content {
   display: flex;
   align-items: center;
