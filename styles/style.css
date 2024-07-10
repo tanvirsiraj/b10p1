@@ -210,3 +210,18 @@ nav h2 {
   border-radius: 10px;
   z-index: 10;
 }
+
+/* footer styles  */
+footer {
+  margin-bottom: 20px;
+}
+footer div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
